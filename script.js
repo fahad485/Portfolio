@@ -1,7 +1,3 @@
-document.getElementById("darkToggle").onclick = () => {
-  document.body.classList.toggle("dark");
-};
-
 const faders = document.querySelectorAll(".fade");
 
 window.addEventListener("scroll", () => {
